@@ -17,6 +17,4 @@ app.use(router);
 
 // app.listen(8080);
 
-app.listen(process.env.PORT, "0.0.0.0", function (err) {
-  console.log("server runninng at " + http.url);
-});
+app.listen(process.env.PORT, "0.0.0.0" || 3000);
