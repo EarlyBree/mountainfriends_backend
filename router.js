@@ -8,6 +8,8 @@ const router = express.Router();
 
 router.get("/getallmountains", mountainController.getAllMountains);
 
+router.get("/test", mountainController.test)
+
 router.post("/getallusers", personController.getAllUser);
 
 router.post("/checkpassword", personController.checkPassword);

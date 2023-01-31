@@ -13,3 +13,7 @@ exports.getMountainById = (req, res) => {
     res.send(data);
   });
 };
+
+exports.test = (req, res) => {
+  res.send("test successful");
+};
