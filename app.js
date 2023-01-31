@@ -11,8 +11,12 @@ app.use(cors());
 
 app.use(router);
 
-const port = process.env.PORT || 3000;
+// const port = process.env.PORT || 3000;
 
-app.listen(port);
+// app.listen(port);
 
-app.listen(8080);
+// app.listen(8080);
+
+app.listen(process.env.PORT, "0.0.0.0", function (err) {
+  console.log("server runninng at " + http.url);
+});
