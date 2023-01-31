@@ -22,6 +22,7 @@ exports.getUserInfo = (req, res) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     const myday = data[0].birthday.getDate();
     data[0].birthday.setDate(myday + 1);
+    // console.log(myday);
     res.send({
       id: data[0].id,
       name: data[0].name,
