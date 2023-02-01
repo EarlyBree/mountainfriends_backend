@@ -15,9 +15,9 @@ exports.getMountainById = (req, res) => {
 };
 
 exports.test = (req, res) => {
-  // res.send("test successful");
-  Mountain.getAllMountains().then(([data]) => {
-    // res.setHeader("Access-Control-Allow-Origin", "*");
-    res.send(data);
-  });
+  res.send("test successful bree");
+  // Mountain.getAllMountains().then(([data]) => {
+  //   res.setHeader("Access-Control-Allow-Origin", "*");
+  //   res.send(data);
+  // });
 };
