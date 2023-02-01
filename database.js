@@ -1,13 +1,13 @@
-const mysql = require("mysql2");
+// const mysql = require("mysql2");
 
-const pool = mysql.createPool({
-  host: "sql212.epizy.com",
-  user: "epiz_33494869",
-  database: "epiz_33494869_mountain_friends",
-  password: "AiKjdtCoAonMN",
-});
+// const pool = mysql.createPool({
+//   host: "sql212.epizy.com",
+//   user: "epiz_33494869",
+//   database: "epiz_33494869_mountain_friends",
+//   password: "AiKjdtCoAonMN",
+// });
 
-module.exports = pool.promise();
+// module.exports = pool.promise();
 
 // const mysql = require("mysql2");
 
@@ -31,3 +31,26 @@ module.exports = pool.promise();
 // });
 
 // module.exports = db;
+
+const sqlite3 = require("sqlite3").verbose();
+
+const db = new sqlite3.Database("database.db", (err) => {
+  if (err) {
+    console.error(err.message);
+  }
+  console.log("Connected to the database.db database.");
+});
+
+const dbPromise = (query) => {
+  return new Promise((resolve, reject) => {
+    db.all(query, (err, rows) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(rows);
+      }
+    });
+  });
+};
+
+module.exports = dbPromise;
