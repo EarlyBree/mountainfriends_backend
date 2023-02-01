@@ -1,10 +1,10 @@
 const mysql = require("mysql2");
 
 const pool = mysql.createPool({
-  host: "mysql80e.ssl-net.net",
-  user: "h39u103",
-  database: "h39u103_breebank",
-  password: "Nomeat81",
+  host: "sql212.epizy.com",
+  user: "epiz_33494869",
+  database: "epiz_33494869_mountain_friends",
+  password: "AiKjdtCoAonMN",
 });
 
 module.exports = pool.promise();
