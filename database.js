@@ -1,10 +1,10 @@
 const mysql = require("mysql2");
 
 const pool = mysql.createPool({
-  host: "sql212.epizy.com",
-  user: "epiz_33494869",
-  database: "epiz_33494869_mountain_friends",
-  password: "AiKjdtCoAonMN",
+  host: "mountainfriends.cf4y4hx0ptxw.eu-central-1.rds.amazonaws.com",
+  user: "admin",
+  database: "mountain_friends",
+  password: "Nomeat81",
 });
 
 module.exports = pool.promise();
