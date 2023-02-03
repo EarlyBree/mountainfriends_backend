@@ -43,7 +43,7 @@ const MountainDetails = (props) => {
     };
     try {
       const response = await fetch(
-        "http://sabrinamueller.eu-4.evennode.com/addhike",
+        "https://mountainfriends-backend.onrender.com/addhike",
         reqOptions
       );
       if (!response.ok) {
@@ -70,7 +70,7 @@ const MountainDetails = (props) => {
       };
       try {
         const response = await fetch(
-          "http://sabrinamueller.eu-4.evennode.com/getallhikers",
+          "https://mountainfriends-backend.onrender.com/getallhikers",
           reqOptions
         );
         if (!response.ok) {

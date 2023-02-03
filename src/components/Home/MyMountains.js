@@ -20,7 +20,7 @@ const MyMountains = () => {
       };
       try {
         const response = await fetch(
-          "http://sabrinamueller.eu-4.evennode.com/getallhikes",
+          "https://mountainfriends-backend.onrender.com/getallhikes",
           reqOptions
         );
         if (!response.ok) {

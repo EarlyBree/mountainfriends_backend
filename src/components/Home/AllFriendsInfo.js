@@ -20,7 +20,7 @@ const AllFriendsInfo = () => {
       };
       try {
         const response = await fetch(
-          "http://sabrinamueller.eu-4.evennode.com/getallusers",
+          "https://mountainfriends-backend.onrender.com/getallusers",
           reqOptions
         );
         if (!response.ok) {
@@ -46,7 +46,7 @@ const AllFriendsInfo = () => {
     };
     try {
       const response = await fetch(
-        "http://sabrinamueller.eu-4.evennode.com/addafriend",
+        "https://mountainfriends-backend.onrender.com/addafriend",
         reqOptions
       );
       if (!response.ok) {

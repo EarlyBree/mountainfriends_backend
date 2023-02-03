@@ -77,7 +77,7 @@ const Register = (props) => {
     };
     try {
       const response = await fetch(
-        "http://sabrinamueller.eu-4.evennode.com/register",
+        "https://mountainfriends-backend.onrender.com/register",
         reqOptions
       );
       if (!response.ok) {

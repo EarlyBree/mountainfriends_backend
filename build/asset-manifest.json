@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mountainfriends/static/css/main.fdb71fee.chunk.css",
+    "main.js": "/mountainfriends/static/js/main.81788009.chunk.js",
+    "main.js.map": "/mountainfriends/static/js/main.81788009.chunk.js.map",
+    "runtime-main.js": "/mountainfriends/static/js/runtime-main.af820828.js",
+    "runtime-main.js.map": "/mountainfriends/static/js/runtime-main.af820828.js.map",
+    "static/js/2.c695deb8.chunk.js": "/mountainfriends/static/js/2.c695deb8.chunk.js",
+    "static/js/2.c695deb8.chunk.js.map": "/mountainfriends/static/js/2.c695deb8.chunk.js.map",
+    "index.html": "/mountainfriends/index.html",
+    "static/css/main.fdb71fee.chunk.css.map": "/mountainfriends/static/css/main.fdb71fee.chunk.css.map",
+    "static/js/2.c695deb8.chunk.js.LICENSE.txt": "/mountainfriends/static/js/2.c695deb8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af820828.js",
+    "static/js/2.c695deb8.chunk.js",
+    "static/css/main.fdb71fee.chunk.css",
+    "static/js/main.81788009.chunk.js"
+  ]
+}

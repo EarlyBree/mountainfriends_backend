@@ -18,7 +18,7 @@ const SideBar = (props) => {
       };
       try {
         const response = await fetch(
-          "http://sabrinamueller.eu-4.evennode.com/getuserbyid",
+          "https://mountainfriends-backend.onrender.com/getuserbyid",
           reqOptions
         );
         if (!response.ok) {

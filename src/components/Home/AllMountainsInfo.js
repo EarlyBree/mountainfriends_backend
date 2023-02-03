@@ -12,7 +12,7 @@ const AllMountainsInfo = () => {
     const fetchAllMountains = async () => {
       try {
         const response = await fetch(
-          "http://sabrinamueller.eu-4.evennode.com/getallmountains"
+          "https://mountainfriends-backend.onrender.com/getallmountains"
         );
         if (!response.ok) {
           throw new Error("Something went wrong");
@@ -37,7 +37,7 @@ const AllMountainsInfo = () => {
     };
     try {
       const response = await fetch(
-        "http://sabrinamueller.eu-4.evennode.com/getmountainbyid",
+        "https://mountainfriends-backend.onrender.com/getmountainbyid",
         reqOptions
       );
       if (!response.ok) {
