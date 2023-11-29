@@ -4,7 +4,7 @@ const pool = mysql.createPool({
   host: "mountainfriends.cf4y4hx0ptxw.eu-central-1.rds.amazonaws.com",
   user: "admin",
   database: "mountain_friends",
-  password: "Nomeat81",
+  password: "SomePublicPassword",
 });
 
 module.exports = pool.promise();
